@@ -11,7 +11,7 @@ Next,
 ```
 cd ansible-ssm-agent/
 ```
-In order to make changes in yaml files you have to create your own repository and copy paste my playbook content.  After you have done changes git commit and git pull it. Run the below command to check errors. 
+In order to make changes in yaml files you have to create your own repository and copy paste my playbook content.  After you have done changes git commit and git push it. Run the below command to check errors. 
 ```` 
 ansible-playbook ssm-agent.yaml --check
 ````
